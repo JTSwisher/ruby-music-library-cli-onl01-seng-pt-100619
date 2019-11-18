@@ -1,7 +1,7 @@
 class MusicLibraryController 
   
   
-  def initialize() 
+  def initialize(path="./db/mps3s") 
       
   end 
 end 
