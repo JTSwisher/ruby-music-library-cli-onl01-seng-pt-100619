@@ -11,6 +11,6 @@ class MusicImporter
   end 
   
   def import 
-    
+    files.each {|file| Song.create_form_filename(file)}
   end 
 end 
